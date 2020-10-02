@@ -1,0 +1,40 @@
+@import url("");
+/* OR ... to be completed */
+@font-face {
+  font-family: "";
+  src: url("../fonts/Spartan/Spartan-Regular.ttf") format("truetype");
+}
+/* Box border declaration */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+/* Repetitive value initialization.*/
+:root {
+  --darkBlue: hsl(217, 19%, 35%);
+  --desaturatedBlue: hsl(214, 17%, 51%);
+  --grayishBlue: hsl(212, 23%, 69%);
+  --lightBlue: hsl(210, 46%, 95%);
+}
+body {
+}
+/* grid system -- mobile first! */
+.wrapper {
+}
+/* Small Screen Sizes */
+/* @media screen and (max-width: 600px) {
+} */
+/* Medium screen */
+@media screen and (min-width: 700px) {
+}
+/* Large screen */
+@media screen and (min-width: 993px) {
+}
